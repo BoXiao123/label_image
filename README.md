@@ -31,3 +31,23 @@ Click Detection Button, draw bouding box of one object, then choose a checkbox a
 The results will be saved in Detection/image_name.txt.   
 `The format is : label x/width y/height w/width h/height`
 ![](https://github.com/BoXiao123/label_image_tool/raw/master/images/8.png)
+
+## APIs for Detection
+Different detection platforms require different formats of data.  
+So it is impossible to use our detection dataset from the tool directly.  
+I will provide APIs to convert our format to popular detection formats easily.  
+Right now, it only surport VOC, COCO, YOLO. I will consider to add tensorflows' format and Mxnets'format.
+
+### Usage
+python main.py
+ --detected_dir
+ --image_path
+ --saved_dir
+ --train_percent
+ --convert_to
+ 
+detected_dir: the path of detection data made from this tool
+image_path : the path of original images
+saved_dir : the directory you want to save the converted data
+train_percent : how many percent of image you want to train
+convert_to: which format you want to convert to (choose one from "voc","yolo", "coco")

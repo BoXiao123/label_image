@@ -10,7 +10,7 @@ from coco import make_coco
 if __name__=="__main__":
 
     parser=argparse.ArgumentParser()
-    parser.add_argument("--detected_dir",type=str,help="the directory of detection results",default="/home/b_xi/build-img_label-Desktop_Qt_5_8_0_GCC_64bit-Release/Detection")
+    parser.add_argument("--detected_dir",type=str,help="the directory of detection results",default="/home/b_xi/Detection")
     parser.add_argument("--image_path",type=str,help="the directory of original images",default="/home/b_xi/car8")
     parser.add_argument("--saved_dir",type=str,help="the directory you want to save the converted result",default="/home/b_xi/VOC2007")
     parser.add_argument("--train_percent",type=float,default=0.9)
