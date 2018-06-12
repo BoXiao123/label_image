@@ -42,11 +42,11 @@ xml
 
 ### Usage
 python main.py  
---detected_dir    "/home/Detection"  
---image_path      "/home/Images"  
---saved_dir       "/home/VOC2007"  
---train_percent    0.9  
---convert_to       voc
+--detected_dir       "/home/Detection"  
+--image_path         "/home/Images"  
+--saved_dir         "/home/VOC2007"  
+--train_percent      0.9  
+--convert_to         voc
  
 detected_dir: the path of detection data made from this tool  
 image_path : the path of original images  
