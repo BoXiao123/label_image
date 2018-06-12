@@ -46,7 +46,7 @@ python main.py
 --image_path       &nbsp;&nbsp;&nbsp;&nbsp; "/home/Images"  
 --saved_dir        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "/home/VOC2007"  
 --train_percent    &nbsp;&nbsp;&nbsp;  0.9  
---convert_to       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  voc
+--convert_to       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  voc
  
 detected_dir: the path of detection data made from this tool  
 image_path : the path of original images  
