@@ -35,13 +35,18 @@ The results will be saved in Detection/image_name.txt.
 ## APIs for Detection
 Different detection platforms require different formats of data.So it is impossible to use our detection dataset from the tool directly.I will provide APIs to convert our format to popular detection formats easily. Right now, it only surport VOC, COCO, YOLO. I will consider to add tensorflows' format and Mxnets'format.
 
+### Library Dependencies
+opencv3  
+lxml  
+xml
+
 ### Usage
 python main.py  
---detected_dir  
---image_path  
---saved_dir  
---train_percent  
---convert_to
+--detected_dir "/home/Detection"  
+--image_path "/home/Images"  
+--saved_dir "/home/VOC2007"  
+--train_percent 0.9  
+--convert_to voc
  
 detected_dir: the path of detection data made from this tool  
 image_path : the path of original images  
