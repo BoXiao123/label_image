@@ -1,7 +1,7 @@
 # label_image
 This repository contains:
-1 A software to label image
-2 APIs convert detection data to other formats(VOC,COCO,YOLO) 
+  1 A software to label image
+  2 APIs convert detection data to other formats(VOC,COCO,YOLO) 
 
 ## Label Image Software
 The img_label_boxed.exe is for Windows7, no library installation requirements.
