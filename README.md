@@ -4,7 +4,8 @@ This repository contains:
 2 APIs convert detection data to other formats(VOC,COCO,YOLO) 
 
 ## Label Image Software
-The img_label_boxed.exe is for Windows7, no library installation requirements.
+In the released folder,there are two versions for Windows7 and Mac.
+No library installation requirements.
 This tool can be used for making classification, tracking, and detection Datasets.
 ![](https://github.com/BoXiao123/label_image_tool/raw/master/images/1.png)
 
